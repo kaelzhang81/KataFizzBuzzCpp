@@ -91,6 +91,7 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="testcase\KataFizzBuzzTestCase.h" />
+    <ClInclude Include="WhizzHandler.h" />
     <ClInclude Include="WordHandler.h" />
   </ItemGroup>
   <ItemGroup>
@@ -105,6 +106,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="testcase\KataFizzBuzzTestCase.cpp" />
+    <ClCompile Include="WhizzHandler.cpp" />
     <ClCompile Include="WordHandler.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

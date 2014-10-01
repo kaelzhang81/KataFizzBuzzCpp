@@ -4,6 +4,7 @@
 #include "BuzzHandler.h"
 #include "FizzHandler.h"
 #include "FizzBuzzHandler.h"
+#include "WhizzHandler.h"
 
 
 FizzBuzzMaker::FizzBuzzMaker(void)
@@ -21,8 +22,9 @@ string FizzBuzzMaker::Translate( int number )
     BuzzHandler buzz_handler(&common_number_handler);
     FizzHandler fizz_handler(&buzz_handler);
     FizzBuzzHandler fizzbuzz_handler(&fizz_handler);
+    WhizzHandler whizz_handler(&fizzbuzz_handler);
 
-    return fizzbuzz_handler.Handle(number);
+    return whizz_handler.Handle(number);
 }
 
 
