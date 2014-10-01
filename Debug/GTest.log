@@ -1,0 +1,30 @@
+﻿生成启动时间为 10/1/2014 2:44:49 PM。
+     1>项目“E:\敏捷训练营\coding dojo\KataFizzBuzzCpp\GTest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\GTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\敏捷训练营\coding dojo\KataFizzBuzzCpp\\" /I"E:\敏捷训练营\coding dojo\KataFizzBuzzCpp\testcase" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\GTest.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt FizzBuzzMaker.cpp
+         FizzBuzzMaker.cpp
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\敏捷训练营\coding dojo\KataFizzBuzzCpp\Debug\GTest.exe" /INCREMENTAL /NOLOGO "E:\share\gtest-1.7.0\msvc\gtest\Debug-MDd\gtestd.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\敏捷训练营\coding dojo\KataFizzBuzzCpp\Debug\GTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\敏捷训练营\coding dojo\KataFizzBuzzCpp\Debug\GTest.lib" /MACHINE:X86 Debug\GTest.exe.embed.manifest.res
+         Debug\FizzBuzzMaker.obj
+         Debug\GTest.obj
+         Debug\stdafx.obj
+         Debug\KataFizzBuzzTestCase.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\GTest.exe.embed.manifest" /manifest Debug\GTest.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         GTest.vcxproj -> E:\敏捷训练营\coding dojo\KataFizzBuzzCpp\Debug\GTest.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\GTest.unsuccessfulbuild”。
+         正在对“Debug\GTest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\敏捷训练营\coding dojo\KataFizzBuzzCpp\GTest.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.62

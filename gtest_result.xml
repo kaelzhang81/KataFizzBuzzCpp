@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2014-10-01T14:45:04" time="0.016" name="AllTests">
+  <testsuite name="KataFizzBuzzTestCase" tests="4" failures="0" disabled="0" errors="0" time="0.007">
+    <testcase name="given_1_should_say_1" status="run" time="0" classname="KataFizzBuzzTestCase" />
+    <testcase name="given_2_should_say_2" status="run" time="0" classname="KataFizzBuzzTestCase" />
+    <testcase name="given_3_should_say_fizz" status="run" time="0" classname="KataFizzBuzzTestCase" />
+    <testcase name="given_5_should_say_buzz" status="run" time="0" classname="KataFizzBuzzTestCase" />
+  </testsuite>
+</testsuites>
