@@ -22,3 +22,8 @@ TEST_F(KataFizzBuzzTestCase, given_5_should_say_buzz)
 {
     ASSERT_TRUE("Buzz" == fizz_buzz_maker.Translate(5));
 }
+
+TEST_F(KataFizzBuzzTestCase, given_15_should_say_fizzbuzz)
+{
+    ASSERT_TRUE("FizzBuzz" == fizz_buzz_maker.Translate(5));
+}
