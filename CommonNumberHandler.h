@@ -7,7 +7,7 @@ public:
     CommonNumberHandler(WordHandler *handler);
     ~CommonNumberHandler(void);
 
-    string Handler(const int number);
+    string Handle(const int number);
 
 private:
     string ConverIntToString(int number);

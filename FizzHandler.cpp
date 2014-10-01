@@ -11,12 +11,12 @@ FizzHandler::~FizzHandler(void)
 {
 }
 
-std::string FizzHandler::Handler( const int number )
+std::string FizzHandler::Handle( const int number )
 {
     if (number % 3 == 0)
     {
         return "Fizz";
     }
 
-    return _handler->Handler(number);
+    return _successor->Handle(number);
 }

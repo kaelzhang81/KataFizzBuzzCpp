@@ -11,12 +11,12 @@ BuzzHandler::~BuzzHandler(void)
 {
 }
 
-std::string BuzzHandler::Handler(const int number)
+std::string BuzzHandler::Handle(const int number)
 {
     if (number % 5 == 0)
     {
         return "Buzz";
     }
 
-    return _handler->Handler(number);
+    return _successor->Handle(number);
 }

@@ -7,6 +7,6 @@ public:
     FizzHandler(WordHandler* handler);
     ~FizzHandler(void);
 
-    string Handler(const int number);
+    string Handle(const int number);
 };
 

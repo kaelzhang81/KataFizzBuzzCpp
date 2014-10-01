@@ -12,7 +12,7 @@ CommonNumberHandler::~CommonNumberHandler(void)
 {
 }
 
-string CommonNumberHandler::Handler(const int number)
+string CommonNumberHandler::Handle(const int number)
 {
     return ConverIntToString(number);
 }

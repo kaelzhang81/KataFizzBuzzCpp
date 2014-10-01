@@ -7,6 +7,6 @@ public:
     BuzzHandler(WordHandler *handler);
     ~BuzzHandler(void);
 
-    string Handler(const int number);
+    string Handle(const int number);
 };
 
