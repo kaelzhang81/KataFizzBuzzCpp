@@ -2,7 +2,7 @@
 #include "BuzzHandler.h"
 
 
-BuzzHandler::BuzzHandler(WordHandler *handler) : WordHandler(handler)
+BuzzHandler::BuzzHandler(WordHandler *successor) : WordHandler(successor)
 {
 }
 

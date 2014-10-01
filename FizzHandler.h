@@ -4,7 +4,7 @@ class FizzHandler :
     public WordHandler
 {
 public:
-    FizzHandler(WordHandler* handler);
+    FizzHandler(WordHandler* successor);
     ~FizzHandler(void);
 
     string Handle(const int number);

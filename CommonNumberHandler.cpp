@@ -3,7 +3,7 @@
 #include <sstream>
 
 
-CommonNumberHandler::CommonNumberHandler(WordHandler *handler) : WordHandler(handler)
+CommonNumberHandler::CommonNumberHandler(WordHandler *successor) : WordHandler(successor)
 {
 }
 

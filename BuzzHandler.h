@@ -4,7 +4,7 @@ class BuzzHandler :
     public WordHandler
 {
 public:
-    BuzzHandler(WordHandler *handler);
+    BuzzHandler(WordHandler *successor);
     ~BuzzHandler(void);
 
     string Handle(const int number);

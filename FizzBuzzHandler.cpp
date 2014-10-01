@@ -2,7 +2,7 @@
 #include "FizzBuzzHandler.h"
 
 
-FizzBuzzHandler::FizzBuzzHandler(WordHandler *handler) : WordHandler(handler)
+FizzBuzzHandler::FizzBuzzHandler(WordHandler *successor) : WordHandler(successor)
 {
 }
 
