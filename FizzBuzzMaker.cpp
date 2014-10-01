@@ -14,6 +14,11 @@ FizzBuzzMaker::~FizzBuzzMaker(void)
 
 string FizzBuzzMaker::Translate( int number )
 {
+    if (number % 15 == 0)
+    {
+        return "FizzBuzz";
+    }
+
     if (number % 3 == 0)
     {
         return "Fizz";
