@@ -11,5 +11,6 @@ public:
     ~FizzBuzzMaker(void);
 
     string Translate(int number);
+    string ConverIntToString(int number);
 };
 
