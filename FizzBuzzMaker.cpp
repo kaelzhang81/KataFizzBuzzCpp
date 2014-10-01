@@ -1,6 +1,6 @@
 #include "StdAfx.h"
 #include "FizzBuzzMaker.h"
-#include <sstream>
+#include "CommonNumberHandler.h"
 
 
 FizzBuzzMaker::FizzBuzzMaker(void)
@@ -15,11 +15,11 @@ FizzBuzzMaker::~FizzBuzzMaker(void)
 string FizzBuzzMaker::Translate( int number )
 {
     CommonNumberHandler common_number_handler(nullptr);
-    BuzzHandler buzz_handler(common_number_handler);
-    FizzHandler fizz_handler(buzz_handler);
-    FizzBuzzHandler fizzbuzz_handler(fizz_handler);
+    //BuzzHandler buzz_handler(common_number_handler);
+    //FizzHandler fizz_handler(buzz_handler);
+    //FizzBuzzHandler fizzbuzz_handler(fizz_handler);
 
-    return fizzbuzz_handler.Handle(number);
+    //return fizzbuzz_handler.Handle(number);
 
     if (number % 15 == 0)
     {
@@ -36,14 +36,7 @@ string FizzBuzzMaker::Translate( int number )
         return "Buzz";
     }
 
-    return ConverIntToString(number);
+    return common_number_handler.Handler(number);
 }
 
-string FizzBuzzMaker::ConverIntToString(int number)
-{
-    string return_str;
-    stringstream ss;
-    ss<<number;
-    ss>>return_str;
-    return return_str;
-}
+
