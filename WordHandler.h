@@ -7,11 +7,11 @@ using namespace std;
 class WordHandler
 {
 public:
-    WordHandler(WordHandler* handler);
+    WordHandler(WordHandler* successor);
     ~WordHandler(void);
 
     virtual string Handler(const int number) = 0;
 protected:
-    WordHandler *_handler;
+    WordHandler *_successor;
 };
 

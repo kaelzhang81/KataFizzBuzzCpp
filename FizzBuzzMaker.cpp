@@ -2,6 +2,7 @@
 #include "FizzBuzzMaker.h"
 #include "CommonNumberHandler.h"
 #include "BuzzHandler.h"
+#include "FizzHandler.h"
 
 
 FizzBuzzMaker::FizzBuzzMaker(void)
@@ -17,7 +18,7 @@ string FizzBuzzMaker::Translate( int number )
 {
     CommonNumberHandler common_number_handler(nullptr);
     BuzzHandler buzz_handler(&common_number_handler);
-    //FizzHandler fizz_handler(buzz_handler);
+    FizzHandler fizz_handler(&buzz_handler);
     //FizzBuzzHandler fizzbuzz_handler(fizz_handler);
 
     //return fizzbuzz_handler.Handle(number);
@@ -27,12 +28,7 @@ string FizzBuzzMaker::Translate( int number )
         return "FizzBuzz";
     }
 
-    if (number % 3 == 0)
-    {
-        return "Fizz";
-    }
-
-    return buzz_handler.Handler(number);
+    return fizz_handler.Handler(number);
 }
 
 

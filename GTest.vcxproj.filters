@@ -33,6 +33,21 @@
     <ClInclude Include="FizzBuzzMaker.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="WordHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonNumberHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BuzzHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FizzHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FizzBuzzHandler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -45,6 +60,21 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="FizzBuzzMaker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WordHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonNumberHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BuzzHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FizzHandler.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FizzBuzzHandler.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

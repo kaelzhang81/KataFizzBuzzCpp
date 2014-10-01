@@ -2,9 +2,9 @@
 #include "WordHandler.h"
 
 
-WordHandler::WordHandler(WordHandler* handler)
+WordHandler::WordHandler(WordHandler* successor)
 {
-    _handler = handler;
+    _successor = successor;
 }
 
 
