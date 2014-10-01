@@ -2,9 +2,9 @@
 #include "WordHandler.h"
 
 
-WordHandler::WordHandler(void)
+WordHandler::WordHandler(WordHandler* handler)
 {
-    _handler = nullptr;
+    _handler = handler;
 }
 
 

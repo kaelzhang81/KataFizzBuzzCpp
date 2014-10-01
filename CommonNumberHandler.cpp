@@ -3,7 +3,7 @@
 #include <sstream>
 
 
-CommonNumberHandler::CommonNumberHandler(WordHandler* pHandler)
+CommonNumberHandler::CommonNumberHandler(WordHandler *handler) : WordHandler(handler)
 {
 }
 
@@ -12,7 +12,7 @@ CommonNumberHandler::~CommonNumberHandler(void)
 {
 }
 
-string CommonNumberHandler::Handler( const int number )
+string CommonNumberHandler::Handler(const int number)
 {
     return ConverIntToString(number);
 }

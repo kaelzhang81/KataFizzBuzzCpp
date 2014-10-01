@@ -7,7 +7,7 @@ using namespace std;
 class WordHandler
 {
 public:
-    WordHandler(void);
+    WordHandler(WordHandler* handler);
     ~WordHandler(void);
 
     virtual string Handler(const int number) = 0;

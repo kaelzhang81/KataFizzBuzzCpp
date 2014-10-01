@@ -4,7 +4,7 @@ class CommonNumberHandler :
     public WordHandler
 {
 public:
-    CommonNumberHandler(WordHandler* pHandler);
+    CommonNumberHandler(WordHandler *handler);
     ~CommonNumberHandler(void);
 
     string Handler(const int number);
